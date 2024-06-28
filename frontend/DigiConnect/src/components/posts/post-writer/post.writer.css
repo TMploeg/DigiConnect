@@ -1,0 +1,18 @@
+.post-writer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.post-writer > input,
+textarea {
+  width: 40%;
+  font-family: inherit;
+}
+.post-writer > input {
+  font-size: 1.5em;
+}
+.post-writer > textarea {
+  height: 10em;
+  font-size: 1em;
+}
